@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Projects</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navLinks">
+        <div class="navbar-nav">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link active" aria-current="page" href="projects.html">My Projects</a>
+          <a class="nav-link" href="contact.html">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <main class="px-3">
+      <section>
+        <div>
+          <div class="projects text-center p-4 ">
+            <h1>My Projects</h1>
+            <p class="lead">2 Projects that i made in my courses. 1 big dinamic project and 1 small static project. <br>
+              Press the image to open the project.
+            </p>
+          </div>
+
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <div class="row">
+                  <div id="carousel1" class="carousel slide mb-4" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="">
+                          <a href="https://pure-meadow-35659.herokuapp.com/">
+                            <img src="/images/yelp-camp.png" class=" d-block w-100" alt="...">
+                          </a>
+                          <div class="carousel-caption ">
+                            <h5>Yelp Camp Project</h5>
+                            <p>Fully responsive dinamic website where you can create a user, add campgrounds and edit
+                              them.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <a href="https://ash-px.github.io/TechStore/">
+                          <img src="/images/tech-store.png" class="d-block w-100" alt="...">
+                        </a>
+                        <div class="carousel-caption  ">
+                          <h5>Tech Store Project</h5>
+                          <p>Static website for a tech store.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel1"
+                      data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel1"
+                      data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+    integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
