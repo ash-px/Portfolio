@@ -9,6 +9,10 @@ h1, h3{
   justify-content: center;
 }
 
+.busted {
+  display: none;
+}
+
 .contact {
   
     background-color: #f3efe7;
